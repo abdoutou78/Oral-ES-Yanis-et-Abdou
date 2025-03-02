@@ -1,0 +1,159 @@
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: #ff2f00;
+}
+
+div#conteneur
+{
+	width: 770px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid #ff2f00  ;
+	background: #ffffff  ;
+}
+
+h1#header
+{
+	height: 200px ;
+	margin: 0 ;
+	
+}
+
+h1#header a
+
+
+
+ul#menu
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none ;
+}
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 130px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #ff2f00;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #ff2f00;
+}
+
+
+
+div#contenu
+{
+	padding: 10 25px 0 50px ;
+	 
+}
+
+div#contenu h3
+{
+	
+	margin-left: 15px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #ff0000 ;
+	border-left: 3px solid #ff2f00 ;
+	color: #ff0000;
+}
+
+div#contenu h4
+{
+	margin-left: 30px ;
+	padding-left: 5px ;
+	border-bottom: 1px solid #ff2f00 ;
+	border-left: 3px solid #ff2f00 ;
+	color: #ff2f00;
+}
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #ff2f00 ;
+}
+
+div#contenu a:hover
+{
+	color: #ff2f00 ;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #ff2f00;
+}
+
+pre
+{
+	overflow: auto ;
+	background: #ff2f00 ;
+	border: 2px solid #ff2f00;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+
+* html pre
+{
+	width: 636px ;
+}
+
+pre span
+{
+	color: #ff2f00 ;
+}
+
+pre span.comment
+{
+	color: #ff2f00 ;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
+}
+
+.image-container figure {
+    text-align: center; 
+    width: 35%; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border: 2px solid #ff2f00;
+}
+
+.image-container figcaption {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #ff2f00; 
+    font-weight: bold;
+}
